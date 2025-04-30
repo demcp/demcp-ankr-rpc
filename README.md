@@ -90,8 +90,75 @@ This MCP service is designed to be integrated with AI assistants supporting the 
 
 ## License
 
-[Specify your license]
+MIT License
+
+Copyright (c) 2023 DEMCP-ANKR
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Contributing
 
-[Optional: Add contributing guidelines] 
+We welcome contributions to the DEMCP-ANKR project!
+
+### How to Contribute
+
+1. **Fork the Repository**: Fork the repository to your GitHub account.
+
+2. **Clone the Forked Repository**: Clone your fork locally on your machine.
+   ```bash
+   git clone https://github.com/yourusername/demcp-ankr.git
+   cd demcp-ankr
+   ```
+
+3. **Create a Branch**: Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Make Changes**: Implement your changes, adhering to the existing code style.
+
+5. **Test Your Changes**: Ensure your changes don't break existing functionality.
+
+6. **Commit Your Changes**: Commit with a clear and descriptive message.
+   ```bash
+   git commit -m "Add feature: your feature description"
+   ```
+
+7. **Push to GitHub**: Push your changes to your forked repository.
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+8. **Create a Pull Request**: Open a pull request from your fork to the main repository.
+
+### Code Standards
+
+- Follow PEP 8 style guidelines for Python code
+- Write descriptive docstrings for all functions and classes
+- Include appropriate error handling
+- Add unit tests for new features
+
+### Reporting Issues
+
+If you find a bug or have a suggestion for improvement:
+
+1. Check if the issue already exists in the GitHub issues
+2. If not, create a new issue with a descriptive title and detailed information
+
+Thank you for contributing to make DEMCP-ANKR better! 

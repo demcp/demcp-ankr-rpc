@@ -4,7 +4,7 @@ import json
 import os
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("ankr-mcp",host="0.0.0.0",port=8080)
+mcp = FastMCP("ankr-mcp",host="127.0.0.1",port=8080)
 USER_AGENT = "DEMCP-ANKR/1.0"
 API_URL = os.environ.get("SOLANA_API_URL")
 
